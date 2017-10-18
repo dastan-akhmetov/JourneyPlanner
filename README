@@ -1,0 +1,16 @@
+INSTALLATION
+
+1. composer install
+2. php -S localhost:8000
+
+UNIT TESTS
+
+1. composer install
+2. ./vendor/bin/phpunit
+
+TO ADD NEW TRANSPORTATION TYPES
+
+1. Extend the Transport Class
+2. Add your own properties and methods to it
+3. Define your own style of printing out a boarding card message
+4. Add a CASE into SWITCH into JourneyPlanner Class

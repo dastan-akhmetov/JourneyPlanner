@@ -1,5 +1,16 @@
 {
+    "authors": [
+        {
+            "name": "Dastan Akhmetov (ddakhmet@gmail.com)"
+        }
+    ],
     "require-dev": {
         "phpunit/phpunit": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Classes\\": "Classes/",
+            "Tests\\": "Tests/"
+        }
     }
 }
